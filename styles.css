@@ -1,0 +1,97 @@
+/* styles.css */
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #343a40; /* Dark background color */
+    color: #e9ecef; /* Light text color */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.form-section {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card {
+    border: 1px solid #495057; /* Slightly lighter border color */
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    margin-top: 20px;
+    background-color: #495057; /* Darker card background color */
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* Lighter box-shadow on hover */
+}
+
+.card-header {
+    background-color: #212529; /* Even darker header background color */
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+/* Style the form inputs and textarea in dark mode */
+.form-control {
+    border: 1px solid #495057;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #495057;
+    color: #e9ecef; /* Light text color */
+}
+
+/* Add some spacing to the top of the page */
+body {
+    padding-top: 20px;
+}
+
+/* Custom styling for form labels in dark mode */
+.form-label {
+    color: #e9ecef; /* Light text color */
+}
+
+/* Unique styling for the form in dark mode */
+#add-item {
+    background-color: #495057;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Additional styling for the title and body in dark mode */
+#input-field, textarea {
+    background-color: #adb5bd;
+    border: 1px solid #495057;
+    border-radius: 5px;
+    padding: 10px;
+    color: #495057;
+}
+
+/* Add some spacing between the form and the card */
+.form-section {
+    margin-bottom: 20px;
+}
+
+
